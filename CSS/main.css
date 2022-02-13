@@ -1,0 +1,62 @@
+.main {
+    width: 1440px;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit",sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+
+@media only screen 
+     and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+        .main {
+            width: 375px;
+        }
+    }
+
+.content-container {
+    width: 20%;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen 
+    and (device-width: 414px) 
+    and (device-height: 896px) 
+    and (-webkit-device-pixel-ratio: 2) { 
+    .content-container {
+        width: 80%;
+    } 
+}
+
+.QR-image {
+    width: 290px;
+    height: 290px;
+    background-image: url(../images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.describtion {
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.explanation {
+    font-weight: 400;
+    opacity: 50%;
+    margin-top: 0%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
